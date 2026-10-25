@@ -3,3 +3,9 @@ let prixCahier = 1500;
 let quantiteCahiers = 4;
 let prixStylo = 500;
 let quantiteStylos = 3;
+
+let montantCahiers = prixCahier * quantiteCahiers;
+let montantStylos = prixStylo * quantiteStylos;
+
+let total = montantCahiers + montantStylos;
+
